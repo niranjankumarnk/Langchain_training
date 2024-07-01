@@ -15,6 +15,6 @@ model_1 = ChatGoogleGenerativeAI(model = "gemini-pro")
 
 #Invoke the model with message
 
-response = model_1.invoke("Write a ballad about LangChain")
+response = model.invoke("Write a ballad about LangChain")
 print("Full response: ", response)
 print("Content only: ", response.content)
